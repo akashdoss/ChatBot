@@ -15,8 +15,8 @@ text = st.text_input("Enter Your Question:")
 model = genai.GenerativeModel('gemini-pro')  # Use a valid model name
 chat = model.start_chat(history=[])
     
+   
     # Send the message and get the response
-response = chat.send_message(text)
-    
-    # Display the response
-st.write(response.text)
+if st.button("Click me"):
+    response = chat.send_message(text)
+    st.write(response.text)

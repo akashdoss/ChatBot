@@ -1,2 +1,8 @@
 streamlit
 google-generativeai
+
+Text to Image:[Hugginface]
+
+https://huggingface.co/models?pipeline_tag=text-to-image&sort=downloads
+
+Use this to get the code and make the api using huggingface token
